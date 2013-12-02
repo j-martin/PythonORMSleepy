@@ -11,7 +11,7 @@ from serializers import ItemSerializer, PersonSerializer
 
 
 class Settings:
-    REDIS_URL = 'redis://'
+    REDIS_URL = 'redis://alpha:6379'
     DEBUG = True
 
 app = Flask(__name__)

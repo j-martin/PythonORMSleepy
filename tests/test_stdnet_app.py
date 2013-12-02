@@ -10,7 +10,7 @@ from stdnet import odm
 from sleepy.api_stdnet import app, register_models
 from sleepy.serializers import ItemSerializer
 
-models = odm.Router('redis://localhost:6379')
+models = odm.Router('redis://alpha:6379')
 
 
 class TestStdnetAPI(TestCase):
