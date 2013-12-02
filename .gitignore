@@ -36,7 +36,7 @@ coverage.xml
 
 # Translations
 *.mo
-
+.IDEA
 # Mr Developer
 .mr.developer.cfg
 .project
@@ -55,3 +55,5 @@ docs/_build/
 *.db
 *.rdb
 
+
+*.xml
